@@ -1,19 +1,33 @@
-# [Proje başlığı] (vaka çalışması)
+# Oracle ERP — Sipariş İptal ve İade Sürecinin Sisteme Taşınması (vaka çalışması)
 
-[Bir cümlelik özet — bu proje ne yapıyor?]
+E-ticaret sitesi olan bir teknoloji ürünleri firmasında, e-posta ve telefonla yürütülen sipariş iptal/iade taleplerinin Oracle ERP üzerinde uçtan uca yönetilmesi için hazırlanmış gereksinim analizi paketi.
 
 ## Problem
 
-[İş problemi nedir? Kim, hangi süreçte, ne sorun yaşıyor?]
+Firmada siparişler Oracle ERP üzerinde yönetiliyor, ancak iptal ve iade talepleri e-posta ve telefonla geliyor ve tamamen manuel işleniyor. Bunun yarattığı sorunlar:
+
+-İptal talepleri manuel ters kayıtla işleniyor; bir iptalin tamamlanması ortalama 2 iş günü sürüyor.
+-Stok elle güncellendiği için satılabilir stok çoğu zaman yanlış görünüyor.
+-Muhasebe, iadeleri ERP dışında ayrı bir Excel dosyasında takip ediyor.
+-Müşteri temsilcisi kargo durumunu göremediği için kargoya verilmiş bir siparişe iptal sözü verebiliyor.
+-Ayda yaklaşık 120 iptal/iade talebi var ve süreç 3 departmanı etkiliyor.
 
 ## Kapsam
 
-[Neyi kapsıyor, neyi kapsamıyor? Kapsam dışı bırakılan noktalar da yazılmalı.]
+*Kapsam içi (in-scope):*
+
+ BRD tamamlanınca doldurulacak
+
+*Kapsam dışı (out-of-scope):*
+
+ BRD tamamlanınca doldurulacak
 
 ## Yöntem ve araçlar
 
-[BRD, user story, kabul kriterleri, UAT senaryoları nasıl üretildi? Hangi araçlar
-kullanıldı (ör. Confluence şablonu, Jira formatı, Excel)?]
+* Paydaş analizi ve gereksinim görüşmesi (simülasyon)
+* Süreç modelleme: Draw.io (as-is / to-be akışları)
+* Dokümantasyon: BRD-lite, user story (Given/When/Then), UAT senaryoları
+* Sürüm yönetimi: GitHub
 
 ## Çıktılar
 
