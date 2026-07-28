@@ -10,13 +10,13 @@ yazılmıştır: mutlu yol, alternatif yol, hata durumu.
 |---|---|
 | [E1](#epic-e1--kargo--statü-görünürlüğü) · Kargo & statü görünürlüğü | US-01 |
 | [E2](#epic-e2--sipariş-iptal-süreci) · Sipariş iptal süreci | US-02 |
-| [E3](#epic-e3--iade-süreci-yönlendirme--yasal-süre-kontrolü) · İade yönlendirme & yasal süre | US-03, US-04 |
+| [E3](#epic-e3--i̇ade-süreci-yönlendirme--yasal-süre-kontrolü) · İade yönlendirme & yasal süre | US-03, US-04 |
 | [E4](#epic-e4--kısmi-işlemler) · Kısmi işlemler | US-05 |
 | [E5](#epic-e5--depo-kontrol-ve-onay) · Depo kontrol ve onay | US-06 |
 | [E6](#epic-e6--ödeme-iadesi--muhasebe) · Ödeme iadesi & muhasebe | US-07, US-08 |
 | [E7](#epic-e7--müşteri-iletişimi--bildirim) · Müşteri iletişimi & bildirim | US-09 |
 | [E8](#epic-e8--stok-yönetimi) · Stok yönetimi | US-10 |
-| [E9](#epic-e9--izlenebilirlik-ve-audit) · İzlenebilirlik ve audit | US-11 |
+| [E9](#epic-e9--i̇zlenebilirlik-ve-audit) · İzlenebilirlik ve audit | US-11 |
 
 ---
 
