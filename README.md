@@ -137,11 +137,11 @@ işin ERP'ye taşınmasıyla o kulvarın varlık nedeni kayboluyor. Kargo statü
 
 ## Gereksinimler
 
-**11 fonksiyonel gereksinim (FR)** ve **5 fonksiyonel olmayan gereksinim (NFR)** tanımlandı; her
+**15 fonksiyonel gereksinim (FR)** ve **5 fonksiyonel olmayan gereksinim (NFR)** tanımlandı; her
 FR ilişkili iş kuralına bağlandı. Öne çıkanlar:
 
 <details>
-<summary><b>Fonksiyonel gereksinimler (11) — açmak için tıklayın</b></summary>
+<summary><b>Fonksiyonel gereksinimler (15) — açmak için tıklayın</b></summary>
 
 | ID | Gereksinim | İlgili BR |
 |---|---|---|
@@ -156,6 +156,10 @@ FR ilişkili iş kuralına bağlandı. Öne çıkanlar:
 | FR-09 | Muhasebe ödeme onayı tamamlandığı anda müşteriye otomatik SMS ve e-posta gönderilmelidir. | Genel |
 | FR-10 | Depo iade kabul onayı ile eşzamanlı olarak satılabilir stok otomatik güncellenmelidir. | BR-02 |
 | FR-11 | Kargo statüsü okunamadığında temsilciye uyarı gösterilmeli ve iptal, statü teyit edilene kadar bloke edilmelidir. | BR-01 |
+| FR-12 | İade talebi oluşturulduğunda benzersiz bir "İade Kargo Kodu / Referans Numarası" üretilmeli ve temsilci ekranında gösterilmelidir. | BR-01 |
+| FR-13 | İptal işleminde önceden tanımlı bir iptal nedeni listesi sunulmalı ve seçilen gerekçe sipariş detayına işlenmelidir. | BR-01 |
+| FR-14 | "Hasarlı / yeniden satışa uygun değil" değerlendirilen iadeler satılabilir stoğa eklenmemeli, "İnceleme / Hasarlı Stok" kategorisine aktarılmalıdır. | BR-02 |
+| FR-15 | "Ayıplı / kusurlu ürün" nedenli iadelerde açıklama ve destekleyici belge/görsel zorunlu tutulmalıdır. | BR-04 |
 
 </details>
 

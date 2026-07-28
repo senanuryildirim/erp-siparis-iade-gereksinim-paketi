@@ -138,6 +138,10 @@ maddi kayıplara yol açmaktadır. *(Detaylı süreç akışı için bkz. Ek A: 
 | **FR-09** | Sistem, muhasebe ödeme onayının tamamlandığı anda müşteriye otomatik bilgilendirme (SMS ve e-posta) göndermelidir. | Genel |
 | **FR-10** | Sistem, depodan verilen iade kabul onayı ile eşzamanlı olarak Oracle üzerindeki satılabilir stok miktarını otomatik güncellemelidir. | BR-02 |
 | **FR-11** | Sistem, kargo statüsünün okunamadığı durumlarda temsilciye uyarı göstermeli ve iptal işleminin başlatılmasını, statü teyit edilene kadar bloke etmelidir. | BR-01 |
+| **FR-12** | Sistem, iade talebi oluşturulduğunda müşterinin depoya gönderim yapabileceği benzersiz bir "İade Kargo Kodu / Referans Numarası" üretmeli ve temsilci ekranında görüntülemelidir. | BR-01 |
+| **FR-13** | Sistem, iptal işlemi sırasında önceden tanımlı bir iptal nedeni listesi sunmalı ve seçilen gerekçeyi sipariş detay kaydına işlemelidir. | BR-01 |
+| **FR-14** | Sistem, "Hasarlı / Yeniden Satışa Uygun Değil" olarak değerlendirilen iade ürünlerini satılabilir stoğa eklememeli; otomatik olarak "İnceleme / Hasarlı Stok" kategorisine aktarmalıdır. | BR-02 |
+| **FR-15** | Sistem, "Ayıplı / Kusurlu Ürün" nedeniyle açılan iade taleplerinde açıklama ve destekleyici belge/görsel girilmesini zorunlu tutmalıdır. | BR-04 |
 
 ### 8.2. Fonksiyonel olmayan gereksinimler
 

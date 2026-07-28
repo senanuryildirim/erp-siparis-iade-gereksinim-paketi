@@ -137,11 +137,11 @@ notifications fire automatically.
 
 ## Requirements
 
-**11 functional requirements (FR)** and **5 non-functional requirements (NFR)** were defined, each
+**15 functional requirements (FR)** and **5 non-functional requirements (NFR)** were defined, each
 FR traced to its governing business rule.
 
 <details>
-<summary><b>Functional requirements (11) — click to expand</b></summary>
+<summary><b>Functional requirements (15) — click to expand</b></summary>
 
 | ID | Requirement | Related BR |
 |---|---|---|
@@ -156,6 +156,10 @@ FR traced to its governing business rule.
 | FR-09 | An automatic SMS and email must be sent to the customer the moment accounting approves the refund. | General |
 | FR-10 | Sellable stock must update automatically, in sync with the warehouse return acceptance. | BR-02 |
 | FR-11 | When shipping status cannot be read, the agent must be warned and cancellation blocked until the status is confirmed. | BR-01 |
+| FR-12 | On creating a return request, a unique "return shipping code / reference number" must be generated and shown on the agent's screen. | BR-01 |
+| FR-13 | Cancellation must offer a predefined reason list, and the selected reason must be written to the order detail record. | BR-01 |
+| FR-14 | Returns assessed as "damaged / not fit for resale" must not be added to sellable stock; they must move automatically to an "inspection / damaged stock" category. | BR-02 |
+| FR-15 | Returns raised under "defective / faulty product" must require a description and a supporting document or image. | BR-04 |
 
 </details>
 
