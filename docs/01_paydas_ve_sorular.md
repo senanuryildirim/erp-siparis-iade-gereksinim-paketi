@@ -20,7 +20,7 @@ Sorular kategorilere ayrılmıştır. Görüşmede muğlak talep şuydu:
 
 ### Mevcut süreç (as-is)
 1. _Bugün bir iptal talebi geldiğinde adım adım ne oluyor? Kim, hangi sistemde, ne yapıyor?_
-2. _Müşteriden iptal/iade talebi telefon veya e-posta ile geldiği andan itibaren, sisteme  girilene kadar arada hangi manuel adımlar atılıyor?_
+2. _Müşteriden iptal/iade talebi telefon veya e-posta ile geldiği andan itibaren, sisteme girilene kadar arada hangi manuel adımlar atılıyor?_
 3. _Kargoya verilmiş bir siparişe yanlışlıkla iptal sözü verildiği bir durum yaşandı mı? En son yaşandığında sonrasında ne oldu — kim fark etti, nasıl çözüldü?_
 
 ### İş kuralları
@@ -47,5 +47,6 @@ Sorular kategorilere ayrılmıştır. Görüşmede muğlak talep şuydu:
 
 ## 3. Görüşme Notları
 
-_AI simülasyonu sonrası buraya eklenecek._
+Görüşmenin sonuçları, çıktıların hangi dokümana işlendiğini gösteren eşleme tablosuyla birlikte
+ayrı bir dosyada toplanmıştır: **[02_gorusme_ozeti.md](02_gorusme_ozeti.md)**
 
